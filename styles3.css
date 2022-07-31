@@ -1,0 +1,134 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
+}
+
+/* navbar */
+.navbar {
+  background-color: black;
+}
+
+.navbar-brand img {
+  height: 100px;
+  margin-left: 40%;
+}
+
+.no{
+  background-color: #395B64;
+}
+
+.navbar-nav {
+  margin-left: 55%;
+  font-size: 1.2rem;
+}
+
+.nav-link {
+  font-size: 1.5rem;
+  padding-right: 50px;
+  color: #66BFBF;
+}
+
+.nav-link:hover {
+  color: gray;
+}
+
+/* review */
+
+
+.hero-image {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("best.webp");
+  height: 30vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.hero-text {
+  text-align: center;
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+}
+
+
+#review1{
+  margin-top: 2%;
+  text-align: center;
+}
+
+.head1{
+  margin-bottom: 2%;
+}
+
+.img5{
+  margin-bottom: 2%;
+  margin-top: 10%;
+  border: 1px solid white;
+  border-radius:50%;
+}
+
+.aaa{
+  font-size: 2rem;
+  color: #FFC23C;
+}
+
+.awesome{
+  border: 1px solid black;
+  background-color: #EDDFB3;
+  border-radius: 20px;
+}
+
+.awesome1{
+  border: 1px solid black;
+  background-color: #ECB390;
+  border-radius: 20px;
+}
+
+.awesome2{
+  border: 1px solid black;
+  background-color: #FFDEDE;
+  border-radius: 20px;
+}
+
+
+/* footer */
+
+#footer{
+  text-align: center;
+  margin-top: 2%;
+  background-color: black;
+  height: 30vh;
+}
+
+.icon{
+  padding-top: 50px;
+  padding-right: 20px;
+  font-size: 1.6rem;
+}
+
+.icon1{
+  color: red;
+  padding-top: 50px;
+  padding-right: 20px;
+  font-size: 1.6rem;
+}
+
+.icon4{
+  color: gray;
+  padding-top: 50px;
+  padding-right: 20px;
+  font-size: 1.6rem;
+}
+
+.copyright{
+  padding-top: 20px;
+  color: gray;
+}
